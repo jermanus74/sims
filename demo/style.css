@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.conatiner {
+  background-color: rgb(26, 122, 26);
+  padding: 20px;
+  /* margin: 5px; */
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: aquamarine;
+}
+.wrapper label {
+  display: block;
+  margin: 10px 0;
+}
+.wrapper #checkbox {
+  display: block;
+  margin: 5px 0;
+}
+#signUp,
+#twitter {
+  display: block;
+  margin: 10px auto;
+  padding: 7px;
+  color: antiquewhite;
+  font-weight: 700;
+  border-radius: 10px;
+  background: rgb(4, 101, 108);
+  width: 10rem;
+  border: 0;
+}
+
+input {
+  padding: 7px 30px;
+  font-weight: 500;
+  /* width: 40; */
+  border-radius: 10px;
+  border: 0;
+}

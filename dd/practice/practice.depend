@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1707404825 source:/home/dax/Documents/dd/practice/main.c
+	<stdio.h>
+	<string.h>
+
